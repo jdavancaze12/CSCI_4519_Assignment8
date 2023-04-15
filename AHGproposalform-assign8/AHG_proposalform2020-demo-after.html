@@ -7,7 +7,7 @@ alternate format, web design, disability, higher education, ADA, Section 508,
 accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
 
 
-<title>AHG 2020</title>
+<title>Accessing Higher Ground Presenter Proposal Form 2020</title>
 
 <link rel='stylesheet' id='Lora-css'  href='//fonts.googleapis.com/css?family=Lora%3A400%2C700&#038;ver=4.4.2' type='text/css' media='all' />
 <link rel="stylesheet" href="css/ahgformstyle2020after.css"  type="text/css" media="screen">
@@ -29,64 +29,62 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
        
 <div id="content">   
     <div id="formheader">
-        <p id="formstart">AHG Presenter Proposal Form 2020</p>
-
-        <p class="outline3">Accessing Higher Ground: Accessible Web, Media and Technology Conference November 16 - 20, 2020</p>
-        <p class="instructions">An asterisk(*) represents a required field.</p>
+        <h1 id="formstart">AHG Presenter Proposal Form 2020</h1>
+        <h1 class="outline3">Accessing Higher Ground</h1>
+        <h2>Accessible Web, Media and Technology Conference</h2>
+        <h2>November 16 - 20, 2020</h2>
+        <h3 class="instructions">Please fill out all required fields. An asterisk(*) signifies that a field is required.</h3>
     </div> 
-
- 
- <p class="outline4">Speaker Information</p>
+<br>
+ <h2 class="outline4">Speaker Information</h2>
  <form action="AHG_saveprop2020.php" method="post" id="AHGproposalform2020">
-  <div class="speakerinfo">
+  <div id="speakerinfo">
 
-<p><strong>1st Presenter*</strong></p>
-    <ul>
-        <li>
-        <label>First Name:</label>
-        <input id="fstspkr1" name="fstspkr1" type="text" required aria-required="true"  />
-        </li>
-        <li>
-        <label for="lstname1">Last Names:</label>
-        <input id="lstname1" name="lstname1" type="text"  required aria-required="true"/>
-        </li>
-        
-        <li>
-        <label for="degree1">Highest Academic Degree:</label>
-        <input id="degree1" name="degree1" type="text" required aria-required="true" />
-        </li>
-        <li>
-        <label for="company1">Institution or Organization:</label>
-        <input id="company1" name="company1" type="text" />
-        </li>
-        <li>
-        <label for="telno1" >Phone Number:</label>
-        <input id="telno1" name="telno1" type="tel" required aria-required="true" />
-        </li>
-        
-        <li>
-        <label for="email1" >e-mail:</label>
-        <input id="email1" name="email1" type="email" required aria-required="true"/>
-        </li>
-    </ul>
-    <hr />
+    <fieldset>
+        <legend><strong>1st Presenter</strong></legend>
+            <ul>
+                <li>
+                    <label for="fstskr1">*First Name:</label>
+                    <input id="fstspkr1" name="fstspkr1" type="text" class="reqfield" required aria-required="true" maxlength="30" />
+                </li>
+                <li>
+                    <label for="lstname1">*Last Name:</label>
+                    <input id="lstname1" name="lstname1" type="text"  class="reqfield" required aria-required="true" maxlength="30"/>
+                </li>
+                <li>
+                    <label for="degree1">*Highest Academic Degree:</label>
+                    <input id="degree1" name="degree1" type="text" class="reqfield" required aria-required="true" maxlength="30"/>
+                </li>
+                <li>
+                    <label for="company1">Institution or Organization:</label>
+                    <input id="company1" name="company1" type="text" />
+                </li>
+                <li>
+                    <label for="telno1" >Phone Number:</label>
+                    <input id="telno1" name="telno1" type="tel" />
+                </li>
+                <li>
+                    <label for="email1" >*Email:</label>
+                    <input id="email1" name="email1" type="email" class="reqfield" required aria-required="true"/>
+                </li>
+            </ul>
+    <hr/>
   
-    <div class="spkrques">
-        <p><strong>Have you presented at a national conference or taught a college-level, semester-long course?*</strong></p>
-        <div class="oneques"> 
-        <span>
-            <input value="1" id="natconfexp1_yes" name="natconfexp1" type="radio" required aria-required="true"/>
-                <label for="natconfexp1_yes" >Yes</label>
-                </span> <span>
-                <input value="0" id="natconfexp1_no" name="natconfexp1" type="radio" />
-                <label for="natconfexp1_no" >No</label>
-        </span> 
+    <div id="spkrques">
+        <p><strong>*Have you presented at a national conference or taught a college-level, semester-long course?</strong></p>
+        <br>
+            <li>
+                <input value="1" id="natconfexp1_yes" name="natconfexp1" type="radio" class="reqfield" required aria-required="true"/>
+                <label for="natconfexp1_yes" id="natconfexp1_yes">Yes</label>
+            </span> 
+            <span>
+                <input value="0" id="natconfexp1_no" name="natconfexp1" type="radio" class="reqfield" required aria-required="true"/>
+                <label for="natconfexp1_no" id="natconfexp1_no">No</label>
+            </span> 
     </div>
-  
-  
+    <br><br>
     <div class="suggest_form">
-    <label for="Speaker1bio"><strong>Presenter 1 bio&nbsp;</strong>(1500 characters maximum)</label>
-  
+    <p><strong>Presenter 1 bio&nbsp;</strong>(1500 characters maximum)</p>
   
     <textarea id="Speaker1bio" name="Speaker1bio" cols="80" rows="4" minlength="1" maxlength="1003"></textarea>
 </fieldset>
@@ -95,7 +93,9 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
 
 
 </div>
- 
+
+<hr>
+
 <div class="formcol">
 
 
@@ -103,17 +103,17 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
 
 
 <div id="propinfo">
-
+        
 <p class="outline4">Proposal Information</p>
 
 	
 
   <fieldset>
-    <legend><strong><span id="proplegend">Title of Proposal</span><span class="star">*</span></strong> (150 characters maximum)</legend>
+    <legend><strong><span id="proplegend">Title of Proposal</span></strong> (150 characters maximum)</legend>
 <ul>
 <li>
-	<label for="proptitle">Proposal Title:</label>
-	<input id="proptitle" name="proptitle" class="reqfield" type="text" minlength="1" maxlength="152" />
+	<label for="proptitle">*Proposal Title:</label>
+	<input id="proptitle" name="proptitle" class="reqfield" type="text" required aria-required="true" minlength="1" maxlength="152" />
    
 </li>
 </ul>
@@ -121,15 +121,10 @@ accommodations, assistifve technology, DOJ, Department of Justice, WAI" />
 </fieldset>
  	
   
-        
+<br>       
 
 </div>
-
-
-
-
-
- <br>
+ 
  
  <input type="submit" value="Submit your proposal" />
 </form>
